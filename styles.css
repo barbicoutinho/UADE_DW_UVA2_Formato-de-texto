@@ -1,4 +1,4 @@
-/* estilos.css */
+/* Estilo general de la página*/
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
@@ -58,4 +58,14 @@ p {
     margin-bottom: 20px;
     max-width: 100%;
   }
+
+.contenedor {
+    max-width: 800px; /* Ancho máximo para que no se estire todo */
+    margin: 0 auto;   /* Centramos el contenido */
+    padding: 20px;    /* Un poco de espacio interno */
+    background-color: #ffffff; /* Opcional: un fondo blanco */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Opcional: una sombrita para que flote */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
   
