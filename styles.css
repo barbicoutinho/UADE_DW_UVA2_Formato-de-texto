@@ -50,22 +50,26 @@ img {
 
 /* Clases y IDs para el Imperio */
 .imperio {
-    background-color: red; /* Fondo rojo para el imperio */
+    background-color: #FF6F61; /* Rojo coral suave para el Imperio */
     padding: 15px;
-    border-left: 5px solid #cc0000;
+    border-left: 5px solid #cc0000; /* Borde rojo más intenso para resaltar */
     border-radius: 8px;
 }
 
+/* Estilo para Darth Vader con mayor tamaño de fuente */
 #vader-nombre {
     font-size: 1.5em; /* Aumento de tamaño para Darth Vader */
 }
 
+
+/* Clases para los rebeldes */
 .rebeldes {
-    background-color: blue; /* Fondo azul para los rebeldes */
+    background-color: #A3C9FF; /* Azul suave para los rebeldes */
     padding: 15px;
-    border-left: 5px solid #0077cc;
+    border-left: 5px solid #0077cc; /* Mantener el borde azul más oscuro */
     border-radius: 8px;
 }
+
 
 #luke-nombre {
     font-style: italic; /* Luke en cursiva */
