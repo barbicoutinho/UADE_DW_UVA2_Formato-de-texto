@@ -1,71 +1,84 @@
-/* Estilo general de la página*/
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
-    background-color: #f9f9f9;
     color: #333;
 }
 
-h1, h2, h3 {
-    color: #0055aa;
-}
-
-p {
-    max-width: 700px;
-}
-
-/* Estilos generales */
-.soldado {
-    border: 2px dashed black;
-  }
-  
-  .espaciado {
-    letter-spacing: 2px;
-  }
-  
-  .apoyo {
-    text-align: center;
-  }
-  
-  .nave {
-    text-transform: uppercase;
-  }
-  
-  /* Imperio */
-  .imperio {
-    background-color: red;
-  }
-  
-  /* Rebeldes */
-  .rebeldes {
-    background-color: blue;
-  }
-  
-  /* IDs */
-  #vader {
-    font-size: 1.5em;
-  }
-  
-  #luke {
-    font-style: italic;
-  }
-  
-  /* Estilo para imágenes */
-  li img {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    max-width: 100%;
-  }
-
+/* Contenedor principal */
 .contenedor {
-    max-width: 800px; /* Ancho máximo para que no se estire todo */
-    margin: 0 auto;   /* Centramos el contenido */
-    padding: 20px;    /* Un poco de espacio interno */
-    background-color: #ffffff; /* Opcional: un fondo blanco */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Opcional: una sombrita para que flote */
-    border-radius: 8px; /* Bordes redondeados */
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-  
+/* Títulos */
+h1, h2 {
+    color: #0077cc;
+    margin-top: 20px;
+}
+
+/* Separadores */
+hr {
+    margin: 30px 0;
+}
+
+/* Listas generales */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Cada item de la lista */
+li {
+    margin-bottom: 20px;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Estilos específicos de clases */
+.imperio {
+    background-color: #ffe0e0;
+    padding: 15px;
+    border-left: 5px solid #cc0000;
+    border-radius: 8px;
+}
+
+.rebeldes {
+    background-color: #e0f7ff;
+    padding: 15px;
+    border-left: 5px solid #0077cc;
+    border-radius: 8px;
+}
+
+.apoyo {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 5px solid #999999;
+    border-radius: 8px;
+}
+
+/* Espaciado adicional */
+.espaciado {
+    margin-top: 20px;
+}
+
+/* Naves */
+.nave {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #eef;
+    border-radius: 6px;
+}
