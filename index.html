@@ -1,70 +1,76 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="es">
+<head>
     <meta charset="utf-8">
-    <title>Ejercicio de IDs y clases CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de IDs y clases CSS - Star Wars</title>
+
+    <!-- Fuente moderna de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Vinculación al CSS -->
     <link rel="stylesheet" href="styles.css">
-  </head>
-  
-  <body>
-  <div class="contenedor">
-    <h1>Los bandos de Star Wars</h1>
-    <p>(las originales, que eran la posta)</p>
-    <hr>
+</head>
 
-    <h2>El imperio</h2>
-    <ul>
-      <li class="imperio soldado espaciado" id="vader">
-        Líder: Darth Vader<br>
-        <img src="https://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg" alt="Darth Vader" />
-      </li>
-      <li class="imperio soldado espaciado">
-        Tropa principal: Storm Trooper<br>
-        <img src="http://www.sideshowtoy.com/wp-content/uploads/2014/10/902292-product-thumb.jpg" alt="Storm Trooper" />
-      </li>
-      <li class="apoyo">
-        Unidades de apoyo:
+<body>
+    <div class="contenedor">
+        <h1>Los bandos de Star Wars</h1>
+        <p>(las originales, que eran la posta)</p>
+        <hr>
+
+        <h2>El Imperio</h2>
         <ul>
-          <li class="nave">
-            Caminante<br>
-            <img src="caminante.png" alt="Caminante AT-AT" />
-          </li>
-          <li class="nave">
-            Tie Fighter<br>
-            <img src="sie.png" alt="Tie Fighter" />
-          </li>
+            <li class="imperio soldado espaciado" id="vader">
+                Líder: Darth Vader<br>
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg" alt="Darth Vader" />
+            </li>
+            <li class="imperio soldado espaciado">
+                Tropa principal: Storm Trooper<br>
+                <img src="http://www.sideshowtoy.com/wp-content/uploads/2014/10/902292-product-thumb.jpg" alt="Storm Trooper" />
+            </li>
+            <li class="apoyo">
+                Unidades de apoyo:
+                <ul>
+                    <li class="nave">
+                        Caminante<br>
+                        <img src="caminante.png" alt="Caminante AT-AT" />
+                    </li>
+                    <li class="nave">
+                        Tie Fighter<br>
+                        <img src="sie.png" alt="Tie Fighter" />
+                    </li>
+                </ul>
+            </li>
         </ul>
-      </li>
-    </ul>
 
-    <hr>
+        <hr>
 
-    <h2>Los rebeldes</h2>
-    <ul>
-      <li class="rebeldes" id="luke">
-        Líder: Luke Skywalker<br>
-        <img src="http://rightwingnews.com/wp-content/uploads/2016/03/luke-skywalker-gay-2.jpg" alt="Luke Skywalker" />
-      </li>
-      <li class="rebeldes soldado espaciado">
-        Tropa principal: Soldado cualunque<br>
-        <img src="tropa.jpg" alt="tropa" />
-      </li>
-      <li class="apoyo">
-        Unidades de apoyo:
+        <h2>Los Rebeldes</h2>
         <ul>
-          <li class="nave">
-            Tanque<br>
-            <img src="tanque.jpg" alt="Tanque rebelde" />
-          </li>
-          <li class="nave">
-            X-Wing<br>
-            <img src="xwing.jpg" alt="X-Wing" />
-          </li>
+            <li class="rebeldes" id="luke">
+                Líder: Luke Skywalker<br>
+                <img src="http://rightwingnews.com/wp-content/uploads/2016/03/luke-skywalker-gay-2.jpg" alt="Luke Skywalker" />
+            </li>
+            <li class="rebeldes soldado espaciado">
+                Tropa principal: Soldado cualunque<br>
+                <img src="tropa.jpg" alt="Tropa Rebelde" />
+            </li>
+            <li class="apoyo">
+                Unidades de apoyo:
+                <ul>
+                    <li class="nave">
+                        Tanque<br>
+                        <img src="tanque.jpg" alt="Tanque rebelde" />
+                    </li>
+                    <li class="nave">
+                        X-Wing<br>
+                        <img src="xwing.jpg" alt="X-Wing" />
+                    </li>
+                </ul>
+            </li>      
         </ul>
-      </li>      
-    </ul>
-    <hr>
 
+        <hr>
     </div>
-  </body>
+</body>
 </html>
