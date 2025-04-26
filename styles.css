@@ -1,0 +1,44 @@
+/* Estilos generales */
+.soldado {
+    border: 2px dashed black;
+  }
+  
+  .espaciado {
+    letter-spacing: 2px;
+  }
+  
+  .apoyo {
+    text-align: center;
+  }
+  
+  .nave {
+    text-transform: uppercase;
+  }
+  
+  /* Imperio */
+  .imperio {
+    background-color: red;
+  }
+  
+  /* Rebeldes */
+  .rebeldes {
+    background-color: blue;
+  }
+  
+  /* IDs */
+  #vader {
+    font-size: 1.5em;
+  }
+  
+  #luke {
+    font-style: italic;
+  }
+  
+  /* Estilo para imágenes */
+  li img {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  
